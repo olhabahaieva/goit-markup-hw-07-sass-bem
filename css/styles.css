@@ -125,7 +125,7 @@ footer {
 
 /*Mobile menu hover style*/
 
-.menu-container {
+.menu {
   display: none;
   position: fixed;
   top: 0;
@@ -160,7 +160,7 @@ footer {
   right: 16px
 }
 
-.menu-container.is-open {
+.menu.is-open {
   display: block;
   position: fixed;
   z-index: 1;
@@ -245,7 +245,7 @@ footer {
 
 /*Mobile Menu*/
 
-.menu-container {
+.menu {
   position: absolute;
   overflow-y: scroll;
 }
