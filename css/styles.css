@@ -535,7 +535,7 @@ footer a {
   }
 }
 
-.hero-title {
+.hero__title {
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-background-color);
@@ -1094,7 +1094,7 @@ footer p {
     display: none;
   }
 
-  .hero-title {
+  .hero__title {
     font-size: 36px;
     line-height: 1.11;
   }
@@ -1263,7 +1263,7 @@ footer p {
     display: none;
   }
 
-  .hero-title {
+  .hero__title {
     font-size: 36px;
     line-height: 1.11;
   }
@@ -1396,7 +1396,7 @@ footer p {
     padding: 112px 0;
   }
 
-  .hero-title {
+  .hero__title {
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 40px;
@@ -1552,7 +1552,7 @@ footer p {
     margin: 0 auto;
   }
 
-  .hero-title {
+  .hero__title {
     margin-bottom: 48px;
   }
 
