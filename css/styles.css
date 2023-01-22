@@ -432,11 +432,11 @@ footer a {
   padding-left: 0;
 }
 
-.services li {
+.services__item {
   margin-right: 24px;
 }
 
-.services li:last-child {
+.services__item:last-child {
   margin-right: 0;
 }
 
