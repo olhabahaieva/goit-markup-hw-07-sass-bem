@@ -720,31 +720,31 @@ footer p {
   text-align: center;
 }
 
-.customer-logo-element:hover,
-.customer-logo-element:focus {
+.customers__logos-item:hover,
+.customers__logos-item:focus {
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
 
-.customer-logo-first:hover,
-.customer-logo-first:focus {
+.customers__logos-link:hover,
+.customers__logos-link:focus {
   cursor: pointer;
   fill: currentColor;
   color: var(--accent-color);
 }
 
-.customer-logo-element:hover .customer-logo,
-.customer-logo-element:focus .customer-logo {
+.customers__logos-item:hover .customers__logos-element,
+.customers__logos-item:focus .customers__logos-element {
   color: var(--accent-color);
   cursor: pointer;
 }
 
-.customer-logo {
+.customers__logos-element {
   color: currentColor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customer-logo-first {
+.customers__logos-link {
   fill: currentColor;
   color: #8e8f99;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1132,7 +1132,7 @@ footer p {
     margin-bottom: 72px;
   }
 
-  .customer-logo-element {
+  .customers__logos-item {
     display: inline-block;
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -1140,7 +1140,7 @@ footer p {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .customers-logos {
+  .customers__logos {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -1284,7 +1284,7 @@ footer p {
     margin-bottom: 0;
   }
 
-  .customers-logos {
+  .customers__logos {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -1293,7 +1293,7 @@ footer p {
     padding-left: 0px;
   }
 
-  .customer-logo-element {
+  .customers__logos-item {
     display: inline-block;
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -1451,13 +1451,13 @@ footer p {
     margin: 0;
   }
 
-  .customers-logos {
+  .customers__logos {
     display: flex;
     gap: 24px;
     margin: 0 auto;
   }
 
-  .customer-logo-element {
+  .customers__logos-item {
     padding: 16px 32px;
   }
 
@@ -1628,7 +1628,7 @@ footer p {
     display: flex;
   }
 
-  .customers-logos {
+  .customers__logos {
     flex-wrap: nowrap;
   }
 }
