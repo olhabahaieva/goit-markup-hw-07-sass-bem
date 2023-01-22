@@ -445,11 +445,11 @@ footer a {
 
 /*Contacts*/
 
-.contacts {
+.header__contacts{
   display: flex;
 }
 
-.contacts > a {
+.header__contacts-link {
   font-family: inherit;
   color: var(--primary-text-color);
   text-decoration: none;
@@ -457,8 +457,8 @@ footer a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts > a:hover,
-.contacts > a:focus {
+.header__contacts-link:hover,
+.header__contacts-link:focus {
   color: var(--accent-color);
 }
 
