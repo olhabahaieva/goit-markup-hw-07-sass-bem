@@ -790,7 +790,7 @@ footer p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-button {
+.button--modal {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -806,21 +806,21 @@ footer p {
   margin-bottom: 24px;
 }
 
-.modal-window-button:hover,
-.modal-window-button:focus {
+.button--modal:hover,
+.button--modal:focus {
   border: none;
   background-color: var(--accent-color);
 }
 
-.modal-window-button:hover .modal-window-cross {
+.button--modal:hover .button__element {
   fill: var(--primary-background-color);
 }
 
-.modal-window-cross {
+.button__element {
   fill: rgba(0, 0, 0, 1);
 }
 
-.order-service-text {
+.modal__text {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -831,7 +831,7 @@ footer p {
   margin-bottom: 16px;
 }
 
-.order-service-label {
+.modal__form-label {
   display: flex;
   position: relative;
   width: 360px;
@@ -843,7 +843,7 @@ footer p {
   color: #8e8f99;
 }
 
-.order-service-label > textarea {
+.modal__form-label > textarea {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -887,8 +887,8 @@ footer p {
   margin-top: 40px;
 }
 
-.input-name-field > input,
-.form-input-phone > input,
+.modal__input-name > input,
+.modal__input-phone > input,
 .form-input-email > input {
   height: 40px;
   width: 360px;
@@ -900,16 +900,16 @@ footer p {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-service-label > textarea {
+.modal__form-label > textarea {
   padding: 8px 16px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-service-label {
+.modal__form-label {
   position: relative;
 }
 
-.input-name-person {
+.modal__input-name-icon {
   position: absolute;
   top: 55%;
   left: 26px;
@@ -917,7 +917,7 @@ footer p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-name-phone {
+.modal__input-phone-icon {
   position: absolute;
   top: 58%;
   left: 26px;
@@ -933,15 +933,15 @@ footer p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-name-field input:focus,
-.form-input-phone input:focus,
+.modal__input-name input:focus,
+.modal__input-phone input:focus,
 .form-input-email input:focus,
-.order-service-label textarea:focus {
+.modal__form-label textarea:focus {
   border: 1px solid var(--accent-color);
 }
 
-.input-name-field:focus-within + svg,
-.form-input-phone:focus-within + svg,
+.modal__input-name:focus-within + svg,
+.modal__input-phone:focus-within + svg,
 .form-input-email:focus-within + svg {
   fill: var(--accent-color);
 }
