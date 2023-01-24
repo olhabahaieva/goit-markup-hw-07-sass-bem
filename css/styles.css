@@ -869,14 +869,14 @@ footer p {
   margin-right: 8px;
 }
 
-.form-input-comment::placeholder {
+.modal__input-comment::placeholder {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-input-comment:focus::placeholder {
+.modal__input-comment:focus::placeholder {
   color: transparent;
 }
 
@@ -889,7 +889,7 @@ footer p {
 
 .modal__input-name > input,
 .modal__input-phone > input,
-.form-input-email > input {
+.modal__input-email > input {
   height: 40px;
   width: 360px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -925,7 +925,7 @@ footer p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-name-email {
+.modal__input-email {
   position: absolute;
   top: 58%;
   left: 26px;
@@ -935,18 +935,18 @@ footer p {
 
 .modal__input-name input:focus,
 .modal__input-phone input:focus,
-.form-input-email input:focus,
+.modal__input-email input:focus,
 .modal__form-label textarea:focus {
   border: 1px solid var(--accent-color);
 }
 
 .modal__input-name:focus-within + svg,
 .modal__input-phone:focus-within + svg,
-.form-input-email:focus-within + svg {
+.modal__input-email:focus-within + svg {
   fill: var(--accent-color);
 }
 
-.order-service-comment {
+.modal__input-comment {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -963,7 +963,7 @@ footer p {
   margin-right: 8px;
 }
 
-.order-service-comment:checked + .checkbox-icon {
+.modal__input-comment:checked + .checkbox-icon {
   background-color: var(--accent-color);
   border: none;
   background-image: url(../images/tick.svg);
