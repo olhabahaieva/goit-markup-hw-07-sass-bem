@@ -137,7 +137,6 @@ footer {
 }
 
 
-
 .menu-container-small{
   display: flex;
   flex-direction: column;
@@ -216,29 +215,6 @@ footer {
   margin-top: 48px;
 }
 
-/*Header*/
-
-.header {
-  position: relative;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-
-.header__container {
-  align-items: center;
-  justify-content: space-between;
-  
-}
-
-.header__navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-}
 
 /*Mobile Menu*/
 
@@ -266,8 +242,6 @@ footer {
 .menu-button.is-open .icon-menu {
   display: block;
 }
-
-
 
 
 /*Header-Logo*/
@@ -302,52 +276,6 @@ footer a {
   color: var(--accent-color);
 }
 
-/*Header - main navigation*/
-
-.header__main-navigation {
-  display: flex;
-  padding-left: 0;
-  gap: 40px;
-}
-
-.header__main-navigation-item {
-  display: block;
-}
-
-.header__main-navigation {
-  color: var(--title-text-color);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__main-navigation-item {
-  position: relative;
-}
-
-.header__main-navigation-item--active {
-  color: var(--accent-color);
-}
-
-.header__main-navigation-item--active::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  background-color: var(--accent-color);
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-}
-
-.header__main-navigation-link:hover,
-.header__main-navigation-link:focus {
-  color: var(--accent-color);
-}
 
 /*Benefits*/
 .benefits {
@@ -375,25 +303,6 @@ footer a {
 
 .services__item:last-child {
   margin-right: 0;
-}
-
-/*Contacts*/
-
-.header__contacts{
-  display: flex;
-}
-
-.header__contacts-link {
-  font-family: inherit;
-  color: var(--primary-text-color);
-  text-decoration: none;
-  margin-left: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__contacts-link:hover,
-.header__contacts-link:focus {
-  color: var(--accent-color);
 }
 
 /*Studio page*/
