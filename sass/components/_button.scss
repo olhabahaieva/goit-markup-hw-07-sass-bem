@@ -1,0 +1,96 @@
+/*General button style*/
+
+.menu-button {
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+  stroke: var(--title-text-color);
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+  cursor: pointer;
+  border: none;
+  padding: 16px 32px 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-clicked-butoon);
+  }
+
+  &-light {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+    border: 1px solid #e7e9fc;
+    padding: 12px 24px;
+    border-radius: 4px;
+    margin-right: 24px;
+    box-shadow: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &-light:last-child {
+    margin-right: 0;
+  }
+
+  &-light:hover,
+  &-light:focus {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+
+  /*Button for modal window*/
+  &--modal {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
+    margin-bottom: 24px;
+  }
+
+  &--modal:hover,
+  &--modal:focus {
+    border: none;
+    background-color: var(--accent-color);
+  }
+
+  &--modal:hover .button__element {
+    fill: var(--primary-background-color);
+  }
+
+  &__element {
+    fill: rgba(0, 0, 0, 1);
+  }
+}
