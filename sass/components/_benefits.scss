@@ -1,13 +1,12 @@
-  /*What we are doing*/
-  .services {
-    padding-left: 0;
-  }
-  
-  .services li {
+/*What we are doing*/
+.benefits {
+  padding-left: 0;
+
+  &__item {
     margin-right: 24px;
   }
-  
-  .services li:last-child {
+
+  &__item:last-child {
     margin-right: 0;
   }
-  
+}
