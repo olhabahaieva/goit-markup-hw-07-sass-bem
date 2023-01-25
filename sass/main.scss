@@ -1,9 +1,12 @@
+/*utils*/
 @import 'utils/layout';
+@import 'utils/responsive';
 @import 'utils/vars';
+
+/*Components*/
 @import 'components/button';
 @import 'components/header';
 @import 'components/modal';
-@import 'utils/responsive';
 @import 'components/hero';
 @import 'components/benefits';
 @import 'components/logo';

@@ -1,35 +1,38 @@
 
   /*Client Logos*/
-  .customers {
+  .customers__logos {
     text-align: center;
-  }
-  
-  .customer-logo-element:hover,
-  .customer-logo-element:focus {
+    display: flex;
+
+
+  &-item:hover,
+  &-item:focus {
     border: 1px solid var(--accent-color);
     cursor: pointer;
   }
   
-  .customer-logo-first:hover,
-  .customer-logo-first:focus {
+  &-element:hover,
+  &-element:focus {
     cursor: pointer;
     fill: currentColor;
     color: var(--accent-color);
   }
   
-  .customer-logo-element:hover .customer-logo,
-  .customer-logo-element:focus .customer-logo {
+  &-item:hover &-link,
+  &-item:focus &-link {
     color: var(--accent-color);
     cursor: pointer;
   }
   
-  .customer-logo {
+  &-link {
     color: currentColor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .customer-logo-first {
+  &-element {
     fill: currentColor;
     color: #8e8f99;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  }
+  

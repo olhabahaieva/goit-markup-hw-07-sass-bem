@@ -1,4 +1,4 @@
-.logo {
+.header__logo {
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -7,11 +7,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 77px;
+
+    &--blue {
+      color: var(--accent-color);
+    }
   }
 
-  .blue-logo {
-    color: var(--accent-color);
-  }
+  
 
   /*Header-Logo*/
 
