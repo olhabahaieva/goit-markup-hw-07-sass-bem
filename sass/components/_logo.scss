@@ -1,0 +1,26 @@
+.logo {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 77px;
+  }
+
+  .blue-logo {
+    color: var(--accent-color);
+  }
+
+  /*Header-Logo*/
+
+.logo-footer {
+  color: var(--primary-background-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

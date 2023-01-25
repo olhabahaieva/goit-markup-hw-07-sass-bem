@@ -1,0 +1,17 @@
+.social-icons-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-icons-link:hover,
+  .social-icons-link:focus {
+    background-color: var(--accent-clicked-butoon);
+  }
+  
