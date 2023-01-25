@@ -85,3 +85,23 @@
     }
 
   }
+
+  @media screen and (max-width: 479px){
+
+    .header {
+      &__main-navigation {
+        display: none;
+      }
+
+      &__contacts{
+        display: none;
+      }
+    }
+
+    .menu__contacts{
+      display: none;
+    }
+ 
+  }
+
+ 
