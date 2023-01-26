@@ -3,7 +3,11 @@
   padding-left: 0;
 
   &__item {
-    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+
+  &__item:last-child {
+    margin-bottom: 0;
   }
 
   &__item:last-child {

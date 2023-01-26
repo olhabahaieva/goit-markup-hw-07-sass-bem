@@ -184,6 +184,9 @@ footer a {
   .container {
     max-width: 479px;
   }
+  .section {
+    padding: 96px 0 96px 0;
+  }
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -241,16 +244,24 @@ footer a {
 }
 
 .heading-second-level {
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   line-height: 1.33;
   margin-bottom: 72px;
 }
 
 .heading-third-level {
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   line-height: 0.9;
   text-align: center;
   margin-bottom: 8px;
+}
+
+.paragraph {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*Components*/
@@ -874,7 +885,10 @@ footer a {
   padding-left: 0;
 }
 .benefits__item {
-  margin-right: 24px;
+  margin-bottom: 72px;
+}
+.benefits__item:last-child {
+  margin-bottom: 0;
 }
 .benefits__item:last-child {
   margin-right: 0;
