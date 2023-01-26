@@ -35,4 +35,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   }
+
+  /*Responsive view*/
+@media screen and (max-width: 479px){
+  .customers__logos{
+    display: none;
+  }
+}
   
