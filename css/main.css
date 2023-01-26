@@ -786,9 +786,9 @@ footer a {
 }
 /*Responsive view*/
 @media screen and (max-width: 479px) {
-  .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
+  .hero__title {
+    font-size: 36px;
+    line-height: 1.11;
     color: var(--primary-background-color);
     margin-bottom: 48px;
   }
