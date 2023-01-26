@@ -240,6 +240,19 @@ footer a {
   --dark-background-color: #2e2f42;
 }
 
+.heading-second-level {
+  font-size: 36px;
+  line-height: 1.33;
+  margin-bottom: 72px;
+}
+
+.heading-third-level {
+  font-size: 36px;
+  line-height: 0.9;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 /*Components*/
 /*Mobile menu button - Hamburger*/
 .menu-button {
@@ -870,6 +883,9 @@ footer a {
 /*Responsive view*/
 @media screen and (max-width: 479px) {
   .section-no-top-padding {
+    display: none;
+  }
+  .benefits__icon-element {
     display: none;
   }
 }
