@@ -32,14 +32,8 @@
     }
   
     &-light {
-      font-family: Roboto, sans-serif;
-      font-size: 16px;
+      @extend .button;
       line-height: 1.5;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      color: var(--accent-color);
-      background-color: var(--secondary-background-color);
-      cursor: pointer;
       border: 1px solid #e7e9fc;
       padding: 12px 24px;
       border-radius: 4px;
@@ -66,7 +60,7 @@
   
     /*Button for modal window*/
     &--modal {
-      cursor: pointer;
+      @extend .button;
       display: flex;
       justify-content: center;
       align-items: center;

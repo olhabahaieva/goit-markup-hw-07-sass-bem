@@ -179,11 +179,55 @@ footer a {
   cursor: pointer;
 }
 
+/*General Responsive styles*/
 @media screen and (max-width: 479px) {
   .container {
     max-width: 479px;
   }
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .section {
+    padding: 96px 0 96px 0;
+  }
+  .section-smaller-top {
+    padding: 48px 0 96px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .section {
+    padding: 96px 0 96px 0;
+  }
+  .section-smaller-top {
+    padding: 64px 0 96px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  .section {
+    padding: 120px 0 120px 0;
+  }
+  .section-smaller-top {
+    padding: 96px 0 96px 0;
+  }
+  /*General Responsive styles ends*/
+}
+.section-no-padding {
+  padding: 0;
+}
+
+.section-no-top-padding {
+  padding: 0;
+  padding-bottom: 120px;
+}
+
 :root {
   /*Text Colors*/
   --accent-color: #4d5ae5;
@@ -211,7 +255,7 @@ footer a {
 }
 
 /*General Buttons*/
-.button {
+.button, .button--modal, .button-light {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.17;
@@ -229,18 +273,11 @@ footer a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /*Button for modal window*/
 }
-.button:hover, .button:focus {
+.button:hover, .button--modal:hover, .button-light:hover, .button:focus, .button--modal:focus, .button-light:focus {
   background-color: var(--accent-clicked-butoon);
 }
 .button-light {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
   line-height: 1.5;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-  background-color: var(--secondary-background-color);
-  cursor: pointer;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
   border-radius: 4px;
@@ -263,7 +300,6 @@ footer a {
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button--modal {
-  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -773,7 +809,6 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 192px 0 192px 0;
   color: var(--primary-background-color);
   text-align: center;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(../images/hero-bcg-mobile.jpeg);
@@ -811,6 +846,9 @@ footer a {
 }
 /*Responsive view*/
 @media screen and (max-width: 479px) {
+  .hero {
+    padding: 112px 0 112px 0;
+  }
   .hero__title {
     font-size: 36px;
     line-height: 1.11;
