@@ -88,30 +88,30 @@
 
   /*Mobile Menu BEM*/
 
-// .menu-container {
-//   position: absolute;
-//   overflow-y: scroll;
-// }
+.menu-container {
+  position: absolute;
+  overflow-y: scroll;
+}
 
-// .mobile-menu-container {
-//   position: fixed;
-// }
+.mobile-menu-container {
+  position: fixed;
+}
 
-// .menu-button .icon-cross {
-//   display: block;
-// }
+.menu-button .icon-cross {
+  display: block;
+}
 
-// .menu-button .icon-menu {
-//   display: none;
-// }
+.menu-button .icon-menu {
+  display: none;
+}
 
-// .menu-button.is-open .icon-cross {
-//   display: none;
-// }
+.menu-button.is-open .icon-cross {
+  display: none;
+}
 
-// .menu-button.is-open .icon-menu {
-//   display: block;
-// }
+.menu-button.is-open .icon-menu {
+  display: block;
+}
 
 /*Mobile menu no BEM*/
 /*Mobile menu hover style*/
