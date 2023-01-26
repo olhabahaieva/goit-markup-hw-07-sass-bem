@@ -184,6 +184,18 @@ footer a {
     max-width: 479px;
   }
 }
+:root {
+  /*Text Colors*/
+  --accent-color: #4d5ae5;
+  --accent-clicked-butoon: #404bbf;
+  --title-text-color: #2e2f42;
+  --primary-text-color: #434455;
+  /*Background colors*/
+  --primary-background-color: #fff;
+  --secondary-background-color: #f4f4fd;
+  --dark-background-color: #2e2f42;
+}
+
 /*Components*/
 /*Mobile menu button - Hamburger*/
 .menu-button {
@@ -772,13 +784,15 @@ footer a {
     background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
   }
 }
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  color: var(--primary-background-color);
-  margin-bottom: 48px;
+/*Responsive view*/
+@media screen and (max-width: 479px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--primary-background-color);
+    margin-bottom: 48px;
+  }
 }
-
 /*What we are doing*/
 .benefits {
   padding-left: 0;

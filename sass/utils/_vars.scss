@@ -1,7 +1,14 @@
-$accent-color: #4d5ae5;
-$accent-clicked-butoon: #404bbf;
-$title-text-color: #2e2f42;
-$primary-text-color: #434455;
-$primary-background-color: #fff;
-$secondary-background-color: #f4f4fd;
-$dark-background-color: #2e2f42;
+:root {
+
+/*Text Colors*/
+--accent-color: #4d5ae5;
+--accent-clicked-butoon: #404bbf;
+--title-text-color: #2e2f42;
+--primary-text-color: #434455;
+
+/*Background colors*/
+--primary-background-color: #fff;
+--secondary-background-color: #f4f4fd;
+--dark-background-color: #2e2f42;
+
+}
